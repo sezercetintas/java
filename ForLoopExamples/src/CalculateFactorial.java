@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CalculateFactorial {
     public static void main(String[] args) {
-        //Calculate the factorial of a user-input number.
+        //Program that calculates the factorial of a number entered by the user
 
         Scanner input= new Scanner(System.in);
         int myNumber=input.nextInt();
