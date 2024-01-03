@@ -11,8 +11,8 @@ public class SumsBetweenTwoValues {
         System.out.println("End Value");
         int finalValue=input.nextInt();
         int total=0;
-        for (int i = initialValue; i < finalValue; i++) {
-            System.out.println(i);
+        for (int i = initialValue; initialValue < finalValue; i++) {
+
             total=total+i;
 
         }
