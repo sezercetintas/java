@@ -4,6 +4,7 @@ public class CalculateFactorial {
     public static void main(String[] args) {
         //Program that calculates the factorial of a number entered by the user
 
+        System.out.println("Enter the Number to Calculate:");
         Scanner input= new Scanner(System.in);
         int myNumber=input.nextInt();
         int counter=1;
