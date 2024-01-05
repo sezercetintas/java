@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int counter = 1;
+        while (counter <= 5) {
+            System.out.println("Counter value: " + counter);
+            counter++;
+        }
+
+        System.out.println("Loop finished!");
     }
 }
