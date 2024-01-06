@@ -33,7 +33,7 @@ public class CurrencyConverter {
                 System.out.print("Enter USD amount: $");
                 amount = scanner.nextDouble();
                 result = amount * 29.84;
-                System.out.println("Equivalent in TL:"+ result+ "₺" );
+                System.out.println("Equivalent in TL: ₺" );
                 break;
             case 4:
                 System.out.print("Enter TL amount: ₺");
