@@ -1,10 +1,7 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Main {
-
+public class ExampleOne {
     public static void main(String[] args) {
-
         Scanner input=new Scanner(System.in);
         System.out.print("Enter Username: ");
         String user=input.nextLine();
@@ -21,7 +18,6 @@ public class Main {
 
             System.out.println("Login Not Successful");
         }
-
 
     }
 }
