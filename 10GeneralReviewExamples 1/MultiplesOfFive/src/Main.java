@@ -1,21 +1,18 @@
 public class Main {
     public static void main(String[] args) {
         boolean key=true;
-        int i=0;
+        int i=1;
         int result;
-        int temporary;
+        int temporary=0;
+        int others;
 
         do {
             i++;
             key=(i>=50)?(key=false):(key=true);
-            result=(i%5==0)?(result=i):(temporary=i);
-
-            System.out.println(result);
-
-
-
+            result=(i%5==0)?(temporary=i):(others=i);
+            System.out.println(temporary);
 
         }
-        while (true);
+        while (key);
     }
 }
