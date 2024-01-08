@@ -2,24 +2,25 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        boolean key=true;
-        int sayac=2;
-        Scanner input=new Scanner(System.in);
-        int number=input.nextInt();
-        int gecici1=0;
-        int gecici2=0;
+        boolean anahtar = true;
+        boolean denetle = true;
+        int sayac = 1;
+
+        int number = 13;
 
         do {
-            sayac++;
-            while (sayac>number){
-                key=(number%sayac==0)?(key=true):(key=false);
+            while (sayac < number) {
+                sayac++;
+                denetle = (number % sayac == 0) ? false : true;
 
+                System.out.println((denetle == true) ? sayac + " Asal" : sayac + " Asal Değil");
             }
-            System.out.println((key==false)?"Asal":"Asal Değil");
 
-        }
-        while (key);
+            anahtar = false;
+
+        } while (anahtar);
 
 
     }
 }
+
