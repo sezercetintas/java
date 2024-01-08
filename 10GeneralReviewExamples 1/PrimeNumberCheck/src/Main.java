@@ -2,28 +2,23 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        boolean anahtar = true;
-        boolean asal = true;
-        int sayac = 1;
+        boolean key = true;
+        boolean prime = true;
+        int counter = 1;
+        Scanner input = new Scanner(System.in);
 
-        int number = 13;
-
-
+        System.out.print("Enter a Number: ");
+        int number = input.nextInt();
 
         do {
-            while (sayac < number) {
-                sayac++;
-                if (number % sayac == 0 && sayac != 1 && sayac != number) {
-                    asal = false;
-                    break;
-                }
+            while (counter < number) {
+                counter++;
+                prime = (number % counter == 0 && counter != 1 && counter != number) ? false : prime;
             }
+            System.out.println((prime) ? number + " is a Prime Number." : number + " is not a Prime Number.");
+            key = false;
 
-            System.out.println((asal) ? number + " Asal" : number + " Asal Değil");
-            anahtar = false;
-
-        } while (anahtar);
-
+        } while (key);
 
     }
 }
