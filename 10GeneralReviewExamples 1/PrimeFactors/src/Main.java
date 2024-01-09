@@ -18,7 +18,7 @@ public class Main {
             } else {
                 factor++;
             }
- 
+
 
         } while (number > 1);
     }
