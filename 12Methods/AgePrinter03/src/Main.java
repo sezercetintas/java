@@ -9,7 +9,7 @@ public class Main {
 
         printAge(age);
     }
-    public static void printAge(int age) {
+        public static void printAge(int age) {
         System.out.println("Your age: : " + age);
     }
 }
