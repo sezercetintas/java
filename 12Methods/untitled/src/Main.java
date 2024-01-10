@@ -26,7 +26,7 @@ public class Main {
 
     public static String determineTriangleType(double a, double b, double c) {
         if (a <= 0 || b <= 0 || c <= 0) {
-            return "invalid"; 
+            return "invalid";
         } else if (a + b > c && a + c > b && b + c > a) {
             if (a == b && b == c) {
                 return "equilateral";
