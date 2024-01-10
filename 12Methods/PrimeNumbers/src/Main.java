@@ -13,7 +13,7 @@ public class Main {
         while (i <= upperLimit) {
             i++;
             if (isPrime(i)) System.out.print(i + " ");
-    
+
         }
 
     }
