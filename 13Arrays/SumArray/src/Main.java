@@ -5,7 +5,7 @@ public class Main {
         int sum=0;
         int i = 0;
 
-         
+
         while (i < numbers.length) {
             sum += numbers[i];
             i++;
