@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-public class log {
+public class pow {
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a number to calculate the natural logarithm: ");
