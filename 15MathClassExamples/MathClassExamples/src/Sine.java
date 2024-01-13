@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sin {
+public class Sine {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sqrt {
+public class Square {
 
     public static void main(String[] args) {
 

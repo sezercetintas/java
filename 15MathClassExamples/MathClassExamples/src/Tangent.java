@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tan {
+public class Tangent {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
