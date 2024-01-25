@@ -5,7 +5,7 @@ public class Substring02 {
         String sub4 = s.substring(8);
         System.out.println(sub4); //easy
 
-        
+
 
     }
 }
