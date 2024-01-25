@@ -18,6 +18,9 @@ public class Substring {
         //example2
         String company1 = a.split("@")[1].split("\\.")[0];
         System.out.println(company1); //gmail
-        
+
+
+
+
     }
 }
