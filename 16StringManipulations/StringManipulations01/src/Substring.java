@@ -11,8 +11,9 @@ public class Substring {
         String sub3 = s.substring(8, 12);
         System.out.println(sub3); //easy
 
-
-
+        //example1
+        String a = "abc@gmail.com";
+        System.out.println(a.substring(4, 9)); //gmail
 
     }
 }
