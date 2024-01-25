@@ -11,5 +11,10 @@ public class CharAt {
 
         char lastChar2 = s.charAt(s.length()-1); //Dynamic Code
         System.out.println(lastChar2);
+
+
+
+
+
     }
 }
