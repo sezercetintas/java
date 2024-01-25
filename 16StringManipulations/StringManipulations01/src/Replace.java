@@ -9,7 +9,7 @@ public class Replace {
         String s2 = s.replace("e", ""); //""
         System.out.println(s2); //larn Java arn mony
 
-        
+
 
     }
 }
