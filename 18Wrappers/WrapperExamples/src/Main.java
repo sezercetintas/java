@@ -19,6 +19,10 @@ public class Main {
         Character character = Character.valueOf('A');
         System.out.println(character);
 
+        //Boolean Wrapper Class:
+        Boolean status = Boolean.valueOf(true);
+        System.out.println(status);
+
 
     }
 }
