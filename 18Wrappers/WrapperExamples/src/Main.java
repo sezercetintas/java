@@ -44,6 +44,11 @@ public class Main {
         Integer integerNumber = Integer.valueOf(numberString);
         System.out.println(integerNumber);
 
+        //Conversion from Boolean to String
+        Boolean boolStatus = true;
+        String boolString = boolStatus.toString();
+        System.out.println(boolString);
+
 
 
 
