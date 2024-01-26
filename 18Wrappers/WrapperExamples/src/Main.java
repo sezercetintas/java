@@ -39,6 +39,12 @@ public class Main {
         Float floatNumber = Float.valueOf(2.5f);
         System.out.println(floatNumber);
 
+        //Conversion from String to Integer:
+        String numberString = "123";
+        Integer integerNumber = Integer.valueOf(numberString);
+        System.out.println(integerNumber);
+
+
 
 
     }
