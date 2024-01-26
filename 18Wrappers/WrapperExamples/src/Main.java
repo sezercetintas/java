@@ -5,10 +5,13 @@ public class Main {
 
 
      //Integer Wrapper Class
-        Integer sayi = Integer.valueOf(5);
-        System.out.println(sayi);
-        
+        Integer number = Integer.valueOf(5);
+        System.out.println(number);
 
+
+    //Double Wrapper Class:
+        Double decimalNumber = Double.valueOf(3.14);
+        System.out.println(decimalNumber);
 
 
 
