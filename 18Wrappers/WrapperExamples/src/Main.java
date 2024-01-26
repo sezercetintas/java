@@ -35,6 +35,10 @@ public class Main {
         Long longNumber = Long.valueOf(100000L);
         System.out.println(longNumber);
 
+        //Float Wrapper Class:
+        Float floatNumber = Float.valueOf(2.5f);
+        System.out.println(floatNumber);
+
 
 
     }
