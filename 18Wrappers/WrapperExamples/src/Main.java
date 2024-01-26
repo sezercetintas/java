@@ -27,6 +27,9 @@ public class Main {
         Byte byteValue = Byte.valueOf((byte) 127);
         System.out.println(byteValue);
 
+        //Short Wrapper Class
+        Short shortNumber = Short.valueOf((short) 100);
+        System.out.println(shortNumber);
 
 
     }
