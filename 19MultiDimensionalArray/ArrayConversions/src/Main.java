@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        int[][] numbers = {{5, 4}, {2, 3, 2}};
+        int[][] numbers = {{5, 4}, {2, 3, 2,5,6}};
 
 
         //1.adim: Iki boyutlu bir Array’de kac eleman oldugunu bulan kodu yazalim
