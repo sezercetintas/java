@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -21,6 +23,8 @@ public class Main {
 
         //2.adim: Tek boyutlu Array’i, iki boyutlu Array’in eleman sayisini kullanarak olusturalim
 
+         int[] newArr= new int[toplamElamanSayisi];
+        System.out.println(Arrays.toString(newArr));
 
 
 
