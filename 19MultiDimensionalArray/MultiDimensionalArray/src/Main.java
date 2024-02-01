@@ -16,11 +16,18 @@ import java.util.Arrays;
         String[][] students = {{"Ali", "Kemal"}, {"Cemal"}, {"Ayhan", "Beyhan", "Seyhan"}, {"Ceyhan", "Burhan"}};
         System.out.println(Arrays.deepToString(students));
 
+        //Ornek 1: Yukaridaki students array'inde toplam kac isim oldugunu bulunuz.
 
+        int toplam=0;
 
+        for (String[] w:students) {
+        toplam = toplam+w.length;
+        }
+        System.out.println(students.length);
 
 
     }
 }
 
 //Update MultiDimensionalArray
+//Example1 MultiDimensionalArray
