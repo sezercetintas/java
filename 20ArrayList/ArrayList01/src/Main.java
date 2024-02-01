@@ -18,5 +18,10 @@ public class Main {
 
         ages.add(1,28);
         System.out.println(ages);
+
+        ages.add(3,7);
+        System.out.println(ages);
+
+
     }
 }
