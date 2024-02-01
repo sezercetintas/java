@@ -1,6 +1,6 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+import java.util.Arrays;
+
+  public class Main {
     public static void main(String[] args) {
         int[][] a = new int[3][2]; //3 distaki, 2 icteki eleman sayisi
         a[0][0] = 5;
@@ -9,6 +9,16 @@ public class Main {
         a[1][1] = 45;
         a[2][0] = 123;
         a[2][1] = 5;
+
+
+        System.out.println(Arrays.deepToString(a));
+
+        String[][] students = {{"Ali", "Kemal"}, {"Cemal"}, {"Ayhan", "Beyhan", "Seyhan"}, {"Ceyhan", "Burhan"}};
+        System.out.println(Arrays.deepToString(students));
+
+
+
+
 
     }
 }
