@@ -25,6 +25,14 @@ import java.util.Arrays;
         }
         System.out.println(students.length);
 
+        //Ornek 2: Yukaridaki students Array'inde icinde "m" olan isimleri console'a yazdiriniz
+        for (String[] w : students){
+            for (String k : w){
+                if (k.contains("m")){
+                    System.out.println(k);
+                }
+            }
+        }
 
     }
 }
