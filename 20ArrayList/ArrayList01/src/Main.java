@@ -16,10 +16,10 @@ public class Main {
 
 
 
-        ages.add(1,28);
+        ages.add(1,28); //[9, 28, 12, 5]
         System.out.println(ages);
 
-        ages.add(3,7);
+        ages.add(3,7);//[9, 28, 12, 7, 5]
         System.out.println(ages);
 
 
