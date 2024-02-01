@@ -14,6 +14,9 @@ public class Main {
         ages.add(12);
         ages.add(5);
 
+
+
+        ages.add(1,28);
         System.out.println(ages);
     }
 }
