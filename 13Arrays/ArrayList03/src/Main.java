@@ -13,6 +13,16 @@ public class Main {
         a.add('v');
         System.out.println(a); //[J, a, v, a, v]
 
+        List<Character> b = new ArrayList<>();
+
+        for (Character w : a){
+            if (!b.contains(w)){
+                b.add(w);  
+            }
+        }
+        System.out.println(b); //[J, a, v]
+
+
 
     }
 }
