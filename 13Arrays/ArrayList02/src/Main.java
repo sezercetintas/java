@@ -12,9 +12,15 @@ public class Main {
         list.add(3);
 
         System.out.println(list);
- 
 
 
+        for (Integer w:list) {
+            if (w%2!=0){
+                list.set(list.indexOf(w),11 );
+            }
 
+        }
+        System.out.println(list);
     }
 }
+
