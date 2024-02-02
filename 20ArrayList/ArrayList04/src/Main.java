@@ -10,6 +10,12 @@ public class Main {
         r.add("Van");
         System.out.println(r); //[Manisa, Nigde, Tokat, Van]
 
+        for (String w : r){
+            if (w.contains("a")){
+                r.remove(w);
+            }
+        }
+        System.out.println(r);
 
 
     }
