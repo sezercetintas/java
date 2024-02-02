@@ -17,7 +17,7 @@ public class Main {
 
         for (Character w : a){
             if (!b.contains(w)){
-                b.add(w);  
+                b.add(w);
             }
         }
         System.out.println(b); //[J, a, v]
