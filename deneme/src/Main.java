@@ -1,6 +1,11 @@
 public class Main {
 
-    // Yorum Satırı
-    
+    public static void main(String[] args) {
+
+
+
+
+
+    }
 
 }
